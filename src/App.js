@@ -9,6 +9,8 @@ function App() {
     // <div>
     //   컨텐츠 내용이 출려되는 부분입니다.
     // </div>
+
+    // 라우트 - 공유기
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/boardWriteReact' element={<BoardWrite />} />
